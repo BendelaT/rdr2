@@ -1,0 +1,61 @@
+@media (max-width: 1650px) {
+  .steps {
+    margin-left: 100px;
+  }
+  .second_section {
+    padding-right: 100px;
+  }
+}
+@media (max-width: 1286px) {
+  .steps {
+    margin-left: 30px;
+  }
+  .second_section {
+    padding-right: 30px;
+  }
+  .howToPlay2 {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 1146px) {
+  .second_section {
+    height: 1200px;
+  }
+  .ellipse1 {
+    display: none;
+  }
+  .ellipse2 {
+    display: none;
+  }
+  .steps {
+    position: relative;
+  }
+  .step:nth-child(3) {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+@media (max-width: 1068px) {
+  header nav {
+    margin-left: 250px;
+  }
+  .donation_content {
+    width: 100%;
+  }
+}
+@media (max-width: 980px) {
+  .logo {
+    left: 20px;
+  }
+  .donate {
+    margin-right: 20px;
+  }
+  header nav {
+    margin-left: 220px;
+  }
+  .lang {
+    margin-right: 10px;
+  }
+}
